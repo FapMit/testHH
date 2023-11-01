@@ -205,6 +205,7 @@ html, body {
     width: 100%;
     height: auto;
     transition: opacity .3s;
+    padding: 0 20px;
 }
 .popup__active {
     opacity: 1;
@@ -213,6 +214,7 @@ html, body {
 }
 .popup__inner {
     position: relative;
+    display: block;
 }
 .popup__close {
     position: absolute;
@@ -223,4 +225,10 @@ html, body {
     max-width: 32px;
     width: 100%;
     height: auto;
+}
+.popup__inner img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    object-fit: cover;
 }
